@@ -1,0 +1,146 @@
+/* Colors and fonts*/
+
+body {
+  background-color: ghostwhite;
+   Color:  #264653;
+   font-family: 'Source Serif Pro', serif;
+   font-size: 17px;
+   line-height: 1.5;
+   font-weight: 150;
+   text-align: center;
+}
+
+h2 {
+	color: #BE6E46;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing : 3px;
+}
+
+a {
+	text-decoration:  none;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+h1 {
+	color: blanchedalmond;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 40px;
+}
+
+
+
+/* Custom design with class and id */
+
+ #banner {
+	background-image: url(images/background.jpg);
+	text-align: center;
+	border-radius: 5px ;
+	margin: 50px auto;
+	width: 700px;
+	padding: 5px;
+}
+
+.container {
+	background-color: ghostwhite;
+	box-shadow: none;
+	margin: 70px auto;
+	width:  700px;
+}
+
+@media (max-width: 960px){
+	#banner{
+		width: 700px;
+	}
+	.container{
+		width: 700px ;
+	}
+}
+
+@media (max-width: 720px){
+	#banner{
+		width: 500px;
+	}
+	.container{
+		width: 500px ;
+	}
+}
+
+@media (max-width: 540px){
+	#banner{
+		width: 300px;
+	}
+	.container{
+		width: 300px;
+	}
+}
+
+.img-circle {
+	width: 150px;
+	border-radius: 60%;
+	box-shadow: 2.5px 2.5px 10px 10px rgba(150, 80, 30, 0.4);
+	text-align: center;
+}
+
+#introduction p{
+	margin-bottom:40px;
+	font-style: italic;
+	color: #264653;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#introduction {
+	padding: 40px;
+}
+
+.card-white {
+	background-color: #ddbea9;
+	margin: 30px;
+	box-shadow: 0px 1px 15px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 20px;
+
+}
+
+.card-white:hover h2 {
+	color: #9b2226;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #264653;
+}
+
+.list-inline i:hover {
+	color: royalblue;
+}
+
+
+.btn-blue {
+	background-color: #264653;
+	color: whitesmoke;
+	padding: 15px 20px;
+	border-radius: 3px;
+}
+
+.btn-blue:hover {
+	color: royalblue;
+}
+
